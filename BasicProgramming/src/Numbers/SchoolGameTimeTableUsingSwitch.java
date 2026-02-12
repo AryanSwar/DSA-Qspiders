@@ -1,37 +1,44 @@
 package Numbers;
 
 import java.util.Scanner;
+//Ques-use switch  match
+	//1 School Game Timetable
+	//A school follows a weekly sports timetable
+	//Monday -> Basketball
+	//Tuseday -> Tennis
+	//Wednesday -> Basketball
+	//Thursday -> Cricket
+	//Friday -> Tennis
+	//Saturday -> Exercise
+	//Sunday -> Holiday
+
+	//Write a program using switch to read the day and display the activity.
+
 
 public class SchoolGameTimeTableUsingSwitch {
 	public static String schoolSportsTimeTable(String day) {
 		String holiday = "";
 		switch(day) {
 		case "Monday":
-//			System.out.println("Baskeball");
 			holiday = "Baskeball";
 			break;
 		case "Tuseday":
-//			System.out.println("Tennis");
 			holiday = "Tennis";
 			break;
 		case "Wednesday":
-//			System.out.println("Basketball");
+
 			holiday = "Basketball";
 			break;
 		case "Thursday":
-//			System.out.println("Cricket");
 			holiday = "Cricket";
 			break;
 		case "Friday":
-//			System.out.println("Tennis");
 			holiday = "Tennis";
 			break;
 		case "Saturday":
-//			System.out.println("Exercise");
 			holiday = "Exercise";
 			break;
 		case "Sunday":
-//			System.out.println("Holiday");
 			holiday = "Holiday";
 			break;
 		}
