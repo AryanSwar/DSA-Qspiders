@@ -12,7 +12,11 @@ public class BankAccountOperation {
 				deposit(amount, balance);
 				break;
 			case 2:
-				
+				withdraw(amount, balance);
+				break;
+			case 3:
+				checkBalance(balance);
+				break;
 			}
 		}
 		
@@ -37,7 +41,14 @@ public class BankAccountOperation {
 	}
 	public static int withdraw(int amount,int balance) {
 		if(balance > amount) {
-			
+			return balance-amount;
 		}
+		else {
+			return balance;
+		}
+	}
+	public static int checkBalance(int balance) {
+		
+		return balance;
 	}
 }
