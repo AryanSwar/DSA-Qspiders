@@ -14,10 +14,17 @@ public class CheckEndWithOddEven16 {
 	//Check number end with odd digit or even digit.
 	public static boolean checkEndOddEven(int num) {
 		boolean res = false;
-		int digit = num % 10;
-		if(digit % 2 == 0) {
+		//best approach 
+		if(num % 2 == 0) {
 			res = true;
 		}
+		
+		//not best approach
+//		int digit = num % 10;
+//		if(digit % 2 == 0) {
+//			res = true;
+//		}
+		
 		return res;
 	}
 }

@@ -2,7 +2,7 @@ package Numbers.Assignment;
 
 public class CheckZeroPresentOrNotDuckNumber14 {
 	public static void main(String[] args) {
-		int num = 1230454;
+		int num = 12030454;
 		boolean res = checkZero(num);
 		if(res == true) {
 			System.out.println("Duck number");
@@ -19,6 +19,7 @@ public class CheckZeroPresentOrNotDuckNumber14 {
 			int digit = num % 10;
 			if(digit == 0) {
 				res = true;
+				break;
 			}
 			num = num/10;
 		}
