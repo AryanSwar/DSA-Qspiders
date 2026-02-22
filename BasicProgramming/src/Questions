@@ -8,7 +8,7 @@
 
  5.Check whether a character is a vowel or consonant.
 
- 6.Check if a character is a lowercase alphabet.
+ 6.Check if a character is a lower case alphabet.
 
  7.Check whether a number is greater than 100.
 
@@ -30,4 +30,18 @@
  
  16.Check number end with odd digit or even digit.
  
- 17.
+ 17.Check number start with 5 or 3.
+ 
+ 18.Check number contains 7 or divisible by 7.
+ 
+ 19.Ques-Factors/divisor of the given number.
+ 
+ 20.HCF or GCD if given number.
+ 
+ 21.Find the given number is Prime number or not.
+ 
+ 22.Find given number is Arm Strong number or not.
+ 
+ 23.Find exponential of given number without using inbuilt function.
+ 
+ 24.
