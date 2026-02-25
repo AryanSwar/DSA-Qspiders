@@ -1,6 +1,18 @@
 package Patterns;
 
 public class Pattern9AlphSquare2 {
+	
+	/*
+	 * 				a b c d e 
+					a b c d e 
+					a b c d e 
+					a b c d e 
+					a b c d e 
+	 * 
+	 * 
+	 * 
+	 * 
+	 */
 	public static void main(String[] args) {
 		int num = 5;
 		for(int i=1;i<=5;i++) {

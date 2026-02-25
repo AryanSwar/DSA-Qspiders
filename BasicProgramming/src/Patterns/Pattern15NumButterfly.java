@@ -1,6 +1,15 @@
 package Patterns;
 
 public class Pattern15NumButterfly {
+	
+	/*
+	 * 					1       5 
+						1 2   4 5 
+						1   3   5 
+						1 2   4 5 
+						1       5 
+	 * 
+	 */
 	public static void main(String[] args) {
 		int num = 5;
 		for(int i=1;i<=5;i++) {

@@ -1,6 +1,17 @@
 package Patterns;
 
 public class Pattern12AlphSquare4 {
+	
+	
+	/*
+	 * 				z z z 
+					y y y 
+					x x x 
+	 * 
+	 * 
+	 * 
+	 * 
+	 */
 	public static void main(String[] args) {
 		int num = 3;
 		for(int i=3;i>=1;i--) {
