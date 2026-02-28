@@ -27,18 +27,34 @@ public class Array {
 //		}
 		
 		
-		String str = "java is programming language";
-		for(int i=0;i<=str.length()-1;i++) {
-			char ch = str.charAt(i);
+//		String str = "java is programming language";
+//		for(int i=0;i<=str.length()-1;i++) {
+//			char ch = str.charAt(i);
 //			int count = 0;
-			for(int j=0;j<=str.length()-1;j++) {
-				char ch1 = str.charAt(j);
-				if(ch != ch1) {
+//			for(int j=0;j<=str.length()-1;j++) {
+//				char ch1 = str.charAt(j);
+//				if(ch == ch1 ) {
 //					count++;
-					System.out.println(ch);
-				}
-			}
-//			System.out.println(ch);
-		}
+//				}
+//			}
+//			System.out.println(ch+" : "+count);
+//		}
+		
+		
+		
+//		String str = "java is a programming";
+//		for(int i=0;i<=str.length()-1;i++) {
+//			int count = 0;
+//			char ch = str.charAt(i);
+//			for(int j=0;j<=str.length()-1;j++) {
+//				char ch1 = str.charAt(j);
+//				if(ch == ch1) {
+//					count++;
+//				}
+//			}
+//			if(count == 1) {
+//				System.out.println(ch);
+//			}
+//		}
 	}
 }

@@ -1,6 +1,6 @@
 package Numbers;
 
-public class CountOfDigit {
+public class CountFactorOfDigit {
 	public static void main(String[] args) {
 		int num = 12;
 		System.out.println("count of the factor of the digit is : "+countDigit(num));
