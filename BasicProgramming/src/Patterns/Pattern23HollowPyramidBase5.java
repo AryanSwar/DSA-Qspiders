@@ -1,6 +1,6 @@
 package Patterns;
 
-public class Pattern23HollowPyramid {
+public class Pattern23HollowPyramidBase5 {
 	/*
 	 * 						    *    
 							   * *   
