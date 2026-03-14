@@ -1,7 +1,7 @@
 package Array;
 
 public class Array4 {
-	//Binary search
+	//Binary search - time complexity O(log n)
 	public static int binarySearch(int arr[],int key) {
 		int start = 0;
 		int end = arr.length-1;
