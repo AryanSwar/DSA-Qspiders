@@ -2,6 +2,9 @@ package Array;
 
 public class Array6 {
 	//Pairs in an Array
+	//formula of pairs of array is n(n-1)/2
+	//time complexity O(n^2)
+	//space complexity 
 	public static void printPairs(int arr[]) {
 		int tp = 0; //total pair
 		for(int i=0;i<arr.length-1;i++) {
