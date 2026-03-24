@@ -1,7 +1,6 @@
 package Array;
 
 import java.util.Arrays;
-import java.util.HashSet;
 
 public class Array12 {
 	//Two Sum
@@ -26,22 +25,4 @@ public class Array12 {
 			}
 		}
 	}
-	
-//	public static boolean twoSumUsingHashSet(int[] a,int target) {
-//		HashSet<Integer> set=new HashSet<Integer>();
-//		for(int i=0;i<a.length;i++) {
-//			int compliment=target-a[i];
-//			if(set.contains(compliment)) {
-//				return true;
-//			}
-//			else {
-//				set.add(a[i]);
-//			}
-//		}
-//		
-////		HashMap map=new HashMap();
-//		
-//		return false;
-//		
-//	}
 }
